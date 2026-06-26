@@ -1,0 +1,82 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1a1a2e;
+    color: #eee;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 560px;
+}
+
+h1 { font-size: 1.8rem; margin-bottom: 8px; color: #a78bfa; }
+p.subtitle { color: #aaa; margin-bottom: 32px; font-size: 0.95rem; }
+
+.card {
+    background: #16213e;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+h2 { font-size: 1.1rem; margin-bottom: 16px; color: #c4b5fd; }
+
+label { display: block; font-size: 0.85rem; color: #aaa; margin-bottom: 4px; }
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #374151;
+    background: #0f3460;
+    color: #eee;
+    font-size: 1rem;
+    margin-bottom: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #7c3aed;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover { background: #6d28d9; }
+
+#status { margin-top: 10px; font-size: 0.9rem; color: #34d399; min-height: 20px; }
+
+.med-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: #0f3460;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.med-info { display: flex; flex-direction: column; gap: 2px; }
+.med-name { font-weight: bold; font-size: 1rem; }
+.med-time { font-size: 0.85rem; color: #a78bfa; }
+
+.delete-btn {
+    width: auto;
+    padding: 6px 14px;
+    background: #7f1d1d;
+    font-size: 0.85rem;
+    border-radius: 6px;
+}
+
+.delete-btn:hover { background: #991b1b; }
+.empty { color: #666; font-size: 0.9rem; text-align: center; padding: 12px 0; }
